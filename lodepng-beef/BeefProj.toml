@@ -1,0 +1,13 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*"}
+
+[Project]
+Name = "LodePng"
+StartupObject = "LodePng.Program"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)/dist/Debug-Win64/lodepng.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)/dist/Release-Win64/lodepng.lib"]
