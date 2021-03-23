@@ -1,8 +1,9 @@
 FileVersion = 1
-Dependencies = {corlib = "*", corlib = "*"}
+Dependencies = {corlib = "*", corlib = "*", corlib = "*"}
 
 [Project]
 Name = "LodePng"
+TargetType = "BeefLib"
 StartupObject = "LodePng.Program"
 
 [Configs.Debug.Win64]
