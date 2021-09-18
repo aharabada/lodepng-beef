@@ -7,7 +7,6 @@ TargetType = "BeefLib"
 StartupObject = "LodePng.Program"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
 LibPaths = ["$(ProjectDir)/dist/Debug-Win64/lodepng.lib"]
 
 [Configs.Release.Win64]
